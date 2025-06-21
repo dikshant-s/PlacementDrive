@@ -8,4 +8,4 @@ frontend/node_modules/
 .env
 
 # Build folders (in case React is built locally)
-frontend/build/
+bild/
