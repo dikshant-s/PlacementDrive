@@ -1,0 +1,9 @@
+
+.application_info{
+    text-align: center;
+
+}
+.application_info h1{
+    text-decoration: underline;
+    font-weight: bold;
+}

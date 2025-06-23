@@ -1,0 +1,76 @@
+.body{
+    background-image: url('../components/Assets/background.jpg');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:center;
+}
+.container_a{
+    display:flex;
+    float: left;
+    
+}
+main{
+    width: 100%;
+    padding: 20px;
+}
+.dashboard{
+    background: rgb(0, 11, 12);
+    color: white;
+    height: 90vh;
+    width: 200px;
+    transition: all 0.5s;
+}
+.top_section{
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+}
+.logo1{
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+
+}
+.bars{
+    display: flex;
+    font-size: 25px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.link{
+    display: flex;
+    color: white;
+    padding: 10px 8px;
+    gap: 15px;
+    transition: all 0.5s;
+
+}
+.link:hover{
+    background: lightskyblue;
+    color: rgb(240, 230, 230);
+    transition: all 0.5s;
+}
+.active{
+    background: lightskyblue;
+    color: rgb(240, 230, 230);
+}
+.icon, .link_text{
+     font-size: 20px;
+     margin-left: 0px;
+}
+.text{
+    text-align: center;
+    height: 50px;
+
+}
+.header{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.header h1{
+    font-family: cursive;
+    margin-top: 10px;
+}

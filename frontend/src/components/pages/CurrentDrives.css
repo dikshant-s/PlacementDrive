@@ -1,0 +1,63 @@
+.drives-page {
+  background: linear-gradient(to bottom left, #ebf8ff, #ede9fe);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.drives-container {
+  max-width: 1200px;
+  padding: 2rem;
+  margin: auto;
+}
+
+.drives-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.drive-card {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.drive-card:hover {
+  transform: translateY(-5px);
+}
+
+.drive-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.drive-content {
+  padding: 1rem;
+}
+
+.drive-content h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.drive-content p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.drive-content a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.drive-content a:hover {
+  text-decoration: underline;
+}

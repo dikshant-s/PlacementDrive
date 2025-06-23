@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.banner {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../Assets/im4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.contents {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.contents h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contents p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 12px 24px;
+    background-color: #009688;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #00796b;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: relative;
+}
+
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.social-icons i {
+    font-size: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.social-icons i:hover {
+    transform: scale(1.2);
+    color: #00e6c3;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-left: 4px;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .contents h1 {
+        font-size: 36px;
+    }
+
+    .contents p {
+        font-size: 16px;
+    }
+
+    .logo {
+        width: 80px;
+    }
+
+    .social-icons i {
+        font-size: 20px;
+    }
+}
